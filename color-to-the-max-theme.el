@@ -23,8 +23,8 @@
  '(font-lock-doc-string-face    ((t (:foreground "Plum"))))
  '(font-lock-warning-face ((t (:bold t :foreground "Pink" :weight bold))))
 
- '(cperl-array-face ((t (:foreground "color-135" :background "B;ack"))))
- '(cperl-hash-face ((t (:foreground "color-141" :background "B;ack"))))
+ '(cperl-array-face ((t (:foreground "color-135"))))
+ '(cperl-hash-face ((t (:foreground "color-141"))))
  '(cperl-nonoverridable-face ((t (:foreground "cyan"))))
  
  '(gnus-button ((t (:bold t :weight bold :background "#191932" :box (:line-width 2 :style released-button)))))
