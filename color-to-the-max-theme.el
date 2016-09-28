@@ -7,7 +7,7 @@
  'color-to-the-max
  '(default ((t (:background "black" :foreground "white"))))
  ;; Font lock faces
- '(font-lock-builtin-face       ((t (:foreground "LightSteelBlue"))))
+ '(font-lock-builtin-face       ((t (:foreground "#ff5f5f"))))
  '(font-lock-constant-face      ((t (:foreground "LightSlateBlue" :bold t))))
  '(font-lock-preprocessor-face  ((t (:foreground "cyan" :italic t))))
  '(font-lock-keyword-face       ((t (:foreground "color-33"))))
