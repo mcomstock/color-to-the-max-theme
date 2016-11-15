@@ -335,8 +335,8 @@
                                         :background "black" :height 81))))
  '(completions-first-difference ((t (:bold t :weight bold))))
 
- '(css-selector ((t (:foreground "LightSteelBlue"))))
- '(css-property ((t (:foreground "light sea green"))))
+ '(css-selector ((t (:foreground "color-166"))))
+ '(css-property ((t (:foreground "color-132"))))
 
  '(cursor ((t (:background "orchid"))))
  '(custom-button-face ((t (:background "lightgrey" :foreground "black"
