@@ -8,7 +8,7 @@
  '(default ((t (:background "black" :foreground "white"))))
  ;; Font lock faces
  '(font-lock-builtin-face       ((t (:foreground "#ff5f5f"))))
- '(font-lock-constant-face      ((t (:foreground "LightSlateBlue" :bold t))))
+ '(font-lock-constant-face      ((t (:foreground "LightSlateBlue"))))
  '(font-lock-preprocessor-face  ((t (:foreground "cyan" :italic t))))
  '(font-lock-keyword-face       ((t (:foreground "color-33"))))
  '(font-lock-type-face          ((t (:foreground "SteelBlue1"))))
@@ -335,8 +335,9 @@
                                         :background "black" :height 81))))
  '(completions-first-difference ((t (:bold t :weight bold))))
 
- '(css-selector ((t (:foreground "color-166"))))
- '(css-property ((t (:foreground "color-132"))))
+ '(css-selector ((t (:foreground "color-161"))))
+ '(css-property ((t (:foreground "color-33"))))
+ '(css-proprietary-property ((t (:foreground "color-226"))))
 
  '(cursor ((t (:background "orchid"))))
  '(custom-button-face ((t (:background "lightgrey" :foreground "black"
