@@ -350,7 +350,7 @@
 
  '(css-selector ((t (:foreground "color-161"))))
  '(css-property ((t (:foreground "color-33"))))
- '(css-proprietary-property ((t (:foreground "color-226"))))
+ '(css-proprietary-property ((t (:foreground "cyan"))))
 
  '(cursor ((t (:background "orchid"))))
  '(custom-button-face ((t (:background "lightgrey" :foreground "black"
