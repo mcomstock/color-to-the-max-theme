@@ -23,9 +23,22 @@
  '(font-lock-doc-string-face    ((t (:foreground "Plum"))))
  '(font-lock-warning-face ((t (:bold t :foreground "Pink" :weight bold))))
 
+ ;; CPerl mode
  '(cperl-array-face ((t (:foreground "color-135"))))
  '(cperl-hash-face ((t (:foreground "color-141"))))
  '(cperl-nonoverridable-face ((t (:foreground "cyan"))))
+
+ ;; Rainbow-delimiters
+ '(rainbow-delimiters-depth-1-face ((t (:foreground "#ef2929"))))
+ '(rainbow-delimiters-depth-2-face ((t (:foreground "#5fafd7"))))
+ '(rainbow-delimiters-depth-3-face ((t (:foreground "#a1db00"))))
+ '(rainbow-delimiters-depth-4-face ((t (:foreground "#ff4ea3"))))
+ '(rainbow-delimiters-depth-5-face ((t (:foreground "#00d7af"))))
+ '(rainbow-delimiters-depth-6-face ((t (:foreground "#ff8700"))))
+ '(rainbow-delimiters-depth-7-face ((t (:foreground "#af5fff"))))
+ '(rainbow-delimiters-depth-8-face ((t (:foreground "#c6c6c6"))))
+ '(rainbow-delimiters-depth-9-face ((t (:foreground "#ffd700"))))
+ '(rainbow-delimiters-unmatched-face ((t (:foreground "white" :background "red"))))
  
  '(gnus-button ((t (:bold t :weight bold :background "#191932" :box (:line-width 2 :style released-button)))))
  '(gnus-cite-attribution-face ((t (:italic t))))
