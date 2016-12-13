@@ -530,17 +530,13 @@
  '(man-xref ((t (:underline t))))
  '(match ((t (:background "RoyalBlue3"))))
  '(minibuffer-prompt ((t (:foreground "cyan"))))
- '(mode-line ((t (:background "#1c1c1c" :foreground "#af5fff"
-                  :box '(:line-width -1 :style released-button)
-                  :height 0.9))))
- '(mode-line-buffer-id ((t (:background "#262626" :foreground "#ff0087"
-                                        :bold t :weight bold :height 0.9))))
- '(mode-line-emphasis ((t (:bold t :weight bold))))
- '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
-                                              :style released-button :height 0.9)))))
- '(mode-line-inactive ((t (:background "#121212" :foreground "#8a8a8a"
-                                       :box '(:line-width -1 :color "grey40")
-                                       :weight light :height 0.9))))
+ '(mode-line ((t (:background "color-233" :foreground "color-166"))))
+ '(mode-line-buffer-id ((t (:foreground "color-220"
+                                        :height 0.9))))
+ ;; '(mode-line-emphasis ((t (:bold t :weight bold))))
+ ;; '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
+ ;;                                              :style released-button :height 0.9)))))
+ '(mode-line-inactive ((t (:background "#121212" :foreground "#8a8a8a"))))
  '(mouse ((t (:background "OrangeRed"))))
 
  '(next-error ((t (:background "blue3"))))
