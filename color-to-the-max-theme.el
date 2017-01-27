@@ -1,4 +1,9 @@
-;; Based on manoj-dark.el --- A dark theme from Manoj by Manoj Srivastava <srivasta@ieee.org>
+;;; color-to-the-max-theme.el --- A dark, high contrast theme by Max Comstock
+
+;;; Commentary:
+;;; Based on manoj-dark.el --- A dark theme from Manoj by Manoj Srivastava <srivasta@ieee.org>
+
+;;; Code:
 
 (deftheme color-to-the-max
   "I think this theme looks nice.")
@@ -39,7 +44,7 @@
  '(rainbow-delimiters-depth-8-face ((t (:foreground "#c6c6c6"))))
  '(rainbow-delimiters-depth-9-face ((t (:foreground "#ffd700"))))
  '(rainbow-delimiters-unmatched-face ((t (:foreground "white" :background "red"))))
- 
+
  '(gnus-button ((t (:bold t :weight bold :background "#191932" :box (:line-width 2 :style released-button)))))
  '(gnus-cite-attribution-face ((t (:italic t))))
  '(gnus-cite-face-1  ((t (:foreground "CornflowerBlue"))))
@@ -639,3 +644,4 @@
 ;; no-byte-compile: t
 ;; End:
 
+;;; color-to-the-max-theme.el ends here
