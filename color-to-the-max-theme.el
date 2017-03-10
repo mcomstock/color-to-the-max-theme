@@ -28,6 +28,12 @@
  '(font-lock-doc-string-face    ((t (:foreground "Plum"))))
  '(font-lock-warning-face ((t (:bold t :foreground "Pink" :weight bold))))
 
+ ;; auto-complete
+ '(ac-completion-face ((t (:underline t :foreground "color-244" :background "color-234"))))
+ '(ac-candidate-face ((t (:foreground "white" :background "color-238"))))
+ '(ac-selection-face ((t (:foreground "white" :background "color-125"))))
+ '(popup-tip-face ((t (:foreground "color-234" :background "color-245"))))
+
  ;; CPerl mode
  '(cperl-array-face ((t (:foreground "color-135"))))
  '(cperl-hash-face ((t (:foreground "color-141"))))
