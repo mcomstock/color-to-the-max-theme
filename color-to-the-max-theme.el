@@ -12,21 +12,20 @@
  'color-to-the-max
  '(default ((t (:background "black" :foreground "white"))))
  ;; Font lock faces
- '(font-lock-builtin-face       ((t (:foreground "#ff5f5f"))))
+ '(font-lock-builtin-face       ((t (:foreground "DarkOrchid"))))
  '(font-lock-constant-face      ((t (:foreground "LightSlateBlue"))))
  '(font-lock-preprocessor-face  ((t (:foreground "cyan" :italic t))))
  '(font-lock-keyword-face       ((t (:foreground "color-33"))))
- '(font-lock-type-face          ((t (:foreground "SteelBlue1"))))
+ '(font-lock-type-face          ((t (:foreground "RoyalBlue"))))
  '(font-lock-regexp-grouping-backslash ((t (:bold t :weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:bold t :weight bold))))
  '(font-lock-variable-name-face ((t (:foreground "color-161"))))
  '(font-lock-function-name-face ((t (:foreground "mediumspringgreen"))))
  '(font-lock-string-face        ((t (:foreground "magenta"))))
- '(font-lock-comment-face       ((t (:italic t :slant oblique :foreground "red"))))
- '(font-lock-comment-delimiter-face ((t (:foreground "red"))))
- '(font-lock-doc-face           ((t (:italic t :slant oblique :foreground "LightCoral"))))
- '(font-lock-doc-string-face    ((t (:foreground "Plum"))))
- '(font-lock-warning-face ((t (:bold t :foreground "Pink" :weight bold))))
+ '(font-lock-comment-face       ((t (:italic t :slant oblique :foreground "color-240"))))
+ '(font-lock-comment-delimiter-face ((t (:foreground "color-240"))))
+ '(font-lock-doc-face           ((t (:italic t :slant oblique :foreground "color-240"))))
+ '(font-lock-warning-face ((t (:bold t :foreground "red" :weight bold))))
 
  ;; auto-complete
  '(ac-completion-face ((t (:underline t :foreground "color-244" :background "color-234"))))
@@ -530,6 +529,8 @@
  '(js2-variable-name-face ((t (:foreground "IndianRed1"))))
  '(js2-warning-face ((t (:background "indian red" :foreground "green"))))
 
+ '(js3-function-param-face ((t (:foreground "color-161"))))
+
  '(lazy-highlight ((t (:background "paleturquoise4"))))
  '(link ((t (:foreground "cyan1" :underline t))))
  '(link-visited ((t (:underline t :foreground "violet"))))
@@ -645,9 +646,5 @@
  '(woman-unknown-face ((t (:foreground "LightSalmon")))))
 
 (provide-theme 'color-to-the-max)
-
-;; Local Variables:
-;; no-byte-compile: t
-;; End:
 
 ;;; color-to-the-max-theme.el ends here
