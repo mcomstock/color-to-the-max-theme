@@ -19,7 +19,7 @@
  '(font-lock-type-face          ((t (:foreground "DodgerBlue"))))
  '(font-lock-regexp-grouping-backslash ((t (:bold t :weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:bold t :weight bold))))
- '(font-lock-variable-name-face ((t (:foreground "PaleVioletRed"))))
+ '(font-lock-variable-name-face ((t (:foreground "color-39"))))
  '(font-lock-function-name-face ((t (:foreground "mediumspringgreen"))))
  '(font-lock-string-face        ((t (:foreground "magenta"))))
  '(font-lock-comment-face       ((t (:italic t :slant oblique :foreground "color-240"))))
@@ -529,8 +529,8 @@
  '(js2-variable-name-face ((t (:foreground "IndianRed1"))))
  '(js2-warning-face ((t (:background "indian red" :foreground "green"))))
 
- '(js3-function-param-face ((t (:foreground "PaleVioletRed"))))
- '(js3-variable-name-face ((t (:foreground "PaleVioletRed"))))
+ '(js3-function-param-face ((t (:foreground "color-39"))))
+ '(js3-variable-name-face ((t (:foreground "color-39"))))
 
  '(lazy-highlight ((t (:background "paleturquoise4"))))
  '(link ((t (:foreground "cyan1" :underline t))))
