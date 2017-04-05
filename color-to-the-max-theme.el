@@ -19,23 +19,23 @@
  '(font-lock-type-face          ((t (:foreground "DodgerBlue"))))
  '(font-lock-regexp-grouping-backslash ((t (:bold t :weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:bold t :weight bold))))
- '(font-lock-variable-name-face ((t (:foreground "color-39"))))
+ '(font-lock-variable-name-face ((t (:foreground "#00afff"))))
  '(font-lock-function-name-face ((t (:foreground "mediumspringgreen"))))
  '(font-lock-string-face        ((t (:foreground "magenta"))))
- '(font-lock-comment-face       ((t (:italic t :slant oblique :foreground "color-240"))))
- '(font-lock-comment-delimiter-face ((t (:foreground "color-240"))))
- '(font-lock-doc-face           ((t (:italic t :slant oblique :foreground "color-240"))))
+ '(font-lock-comment-face       ((t (:italic t :slant oblique :foreground "#585858"))))
+ '(font-lock-comment-delimiter-face ((t (:foreground "#585858"))))
+ '(font-lock-doc-face           ((t (:italic t :slant oblique :foreground "#585858"))))
  '(font-lock-warning-face ((t (:bold t :foreground "red" :weight bold))))
 
  ;; auto-complete
- '(ac-completion-face ((t (:underline t :foreground "color-244" :background "color-234"))))
- '(ac-candidate-face ((t (:foreground "white" :background "color-238"))))
- '(ac-selection-face ((t (:foreground "white" :background "color-125"))))
- '(popup-tip-face ((t (:foreground "color-234" :background "color-245"))))
+ '(ac-completion-face ((t (:underline t :foreground "#808080" :background "#1c1c1c"))))
+ '(ac-candidate-face ((t (:foreground "white" :background "#444444"))))
+ '(ac-selection-face ((t (:foreground "white" :background "#af005f"))))
+ '(popup-tip-face ((t (:foreground "#1c1c1c" :background "#8a8a8a"))))
 
  ;; CPerl mode
- '(cperl-array-face ((t (:foreground "color-135"))))
- '(cperl-hash-face ((t (:foreground "color-141"))))
+ '(cperl-array-face ((t (:foreground "#af5fff"))))
+ '(cperl-hash-face ((t (:foreground "#af87ff"))))
  '(cperl-nonoverridable-face ((t (:foreground "cyan"))))
 
  ;; Rainbow-delimiters
@@ -358,8 +358,8 @@
                                         :background "black" :height 81))))
  '(completions-first-difference ((t (:bold t :weight bold))))
 
- '(css-selector ((t (:foreground "color-161"))))
- '(css-property ((t (:foreground "color-33"))))
+ '(css-selector ((t (:foreground "#d7005f"))))
+ '(css-property ((t (:foreground "#0087ff"))))
  '(css-proprietary-property ((t (:foreground "cyan"))))
 
  '(cursor ((t (:background "orchid"))))
@@ -469,7 +469,7 @@
  '(header-line ((t (:box (:line-width -1 :color "grey20" :style released-button) :background "grey20" :foreground "grey90"  :height 0.9))))
  '(help-argument-name ((t (:italic t :slant italic))))
  '(highlight ((t (:background "gray10" :foreground "Old Lace"))))
- '(hl-line  ((t (:background "color-234"))))
+ '(hl-line  ((t (:background "#1c1c1c"))))
  '(gnus-mouse-face ((t (:background "darkseagreen2" :foreground "blue"))))
  '(erc-button-mouse-face ((t (:background "darkseagreen2" :foreground "blue"))))
  '(align-highlight-change-face  ((t (:background "darkseagreen2" :foreground "blue"))))
@@ -529,8 +529,8 @@
  '(js2-variable-name-face ((t (:foreground "IndianRed1"))))
  '(js2-warning-face ((t (:background "indian red" :foreground "green"))))
 
- '(js3-function-param-face ((t (:foreground "color-39"))))
- '(js3-variable-name-face ((t (:foreground "color-39"))))
+ '(js3-function-param-face ((t (:foreground "#00afff"))))
+ '(js3-variable-name-face ((t (:foreground "#00afff"))))
 
  '(lazy-highlight ((t (:background "paleturquoise4"))))
  '(link ((t (:foreground "cyan1" :underline t))))
@@ -543,8 +543,8 @@
  '(man-xref ((t (:underline t))))
  '(match ((t (:background "RoyalBlue3"))))
  '(minibuffer-prompt ((t (:foreground "cyan"))))
- '(mode-line ((t (:background "color-233" :foreground "color-166"))))
- '(mode-line-buffer-id ((t (:foreground "color-220"
+ '(mode-line ((t (:background "#121212" :foreground "#d75f00"))))
+ '(mode-line-buffer-id ((t (:foreground "ffdf00"
                                         :height 0.9))))
  ;; '(mode-line-emphasis ((t (:bold t :weight bold))))
  ;; '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
