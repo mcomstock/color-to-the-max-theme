@@ -544,7 +544,7 @@
  '(match ((t (:background "RoyalBlue3"))))
  '(minibuffer-prompt ((t (:foreground "cyan"))))
  '(mode-line ((t (:background "#121212" :foreground "#d75f00"))))
- '(mode-line-buffer-id ((t (:foreground "ffdf00"
+ '(mode-line-buffer-id ((t (:foreground "#ffdf00"
                                         :height 0.9))))
  ;; '(mode-line-emphasis ((t (:bold t :weight bold))))
  ;; '(mode-line-highlight ((t (:box (:line-width 2 :color "grey40"
