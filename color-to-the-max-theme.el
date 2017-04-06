@@ -33,13 +33,14 @@
  '(ac-selection-face ((t (:foreground "white" :background "#af005f"))))
  '(popup-tip-face ((t (:foreground "#1c1c1c" :background "#8a8a8a"))))
 
+ ;; company
  '(company-tooltip ((t (:foreground "white" :background "#444444"))))
  '(company-scrollbar-bg ((t (:background "#1c1c1c"))))
  '(company-scrollbar-fg ((t (:background "#8a8a8a"))))
  '(company-tooltip-selection ((t (:foreground "white" :background "#af005f"))))
  '(company-tooltip-common ((t (:foreground "#1c1c1c"))))
- '(company-preview ((t (:foreground "blue"))))
- '(company-preview-common ((t (:background "red"))))
+ '(company-preview ((t (:foreground "#585858" :background "#1c1c1c"))))
+ '(company-preview-common ((t (:foreground "#585858" :background "#1c1c1c" :underline t))))
 
  ;; CPerl mode
  '(cperl-array-face ((t (:foreground "#af5fff"))))
