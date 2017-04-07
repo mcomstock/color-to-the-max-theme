@@ -12,15 +12,15 @@
  'color-to-the-max
  '(default ((t (:background "black" :foreground "white"))))
  ;; Font lock faces
- '(font-lock-builtin-face       ((t (:foreground "DarkOrchid"))))
- '(font-lock-constant-face      ((t (:foreground "LightSlateBlue"))))
+ '(font-lock-builtin-face       ((t (:foreground "#8470ff"))))
+ '(font-lock-constant-face      ((t (:foreground "#ff4500"))))
  '(font-lock-preprocessor-face  ((t (:foreground "cyan" :italic t))))
- '(font-lock-keyword-face       ((t (:foreground "DeepPink"))))
- '(font-lock-type-face          ((t (:foreground "DodgerBlue"))))
+ '(font-lock-keyword-face       ((t (:foreground "#ff1493"))))
+ '(font-lock-type-face          ((t (:foreground "#ff4ea3"))))
  '(font-lock-regexp-grouping-backslash ((t (:bold t :weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:bold t :weight bold))))
  '(font-lock-variable-name-face ((t (:foreground "#00afff"))))
- '(font-lock-function-name-face ((t (:foreground "mediumspringgreen"))))
+ '(font-lock-function-name-face ((t (:foreground "#00ff7f"))))
  '(font-lock-string-face        ((t (:foreground "magenta"))))
  '(font-lock-comment-face       ((t (:italic t :slant oblique :foreground "#585858"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#585858"))))
@@ -46,6 +46,10 @@
  '(cperl-array-face ((t (:foreground "#af5fff"))))
  '(cperl-hash-face ((t (:foreground "#af87ff"))))
  '(cperl-nonoverridable-face ((t (:foreground "cyan"))))
+
+ '(css-selector ((t (:foreground "#ff1493"))))
+ '(css-property ((t (:foreground "#00afff"))))
+ '(css-proprietary-property ((t (:foreground "#00ff7f"))))
 
  ;; Rainbow-delimiters
  '(rainbow-delimiters-depth-1-face ((t (:foreground "#ef2929"))))
@@ -366,10 +370,6 @@
                                         :slant normal :foreground "WhiteSmoke"
                                         :background "black" :height 81))))
  '(completions-first-difference ((t (:bold t :weight bold))))
-
- '(css-selector ((t (:foreground "#d7005f"))))
- '(css-property ((t (:foreground "#0087ff"))))
- '(css-proprietary-property ((t (:foreground "cyan"))))
 
  '(cursor ((t (:background "orchid"))))
  '(custom-button-face ((t (:background "lightgrey" :foreground "black"
