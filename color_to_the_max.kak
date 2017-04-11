@@ -63,7 +63,7 @@
         face StatusLineValue ${cttm_magenta},default
         face StatusCursor default,default+r
         face Prompt ${cttm_yellow},default
-        face MatchingChar default,default+b
+        face MatchingChar default,${cttm_lightblue}
         face BufferPadding ${cttm_purple},default
         face Whitespace ${cttm_comment},default
     "
