@@ -65,5 +65,6 @@
         face Prompt ${cttm_yellow},default
         face MatchingChar default,default+b
         face BufferPadding ${cttm_purple},default
+        face Whitespace ${cttm_comment},default
     "
 }
