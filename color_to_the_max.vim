@@ -39,6 +39,10 @@ let g:colors_name="color_to_the_max"
  	
 " Uncomment and complete the commands you want to change from the default.
 
+" =============================================================================
+" UI Colors
+" =============================================================================
+
 "hi Cursor		
 "hi CursorIM	
 "hi Directory	
@@ -69,11 +73,15 @@ let g:colors_name="color_to_the_max"
 "hi Scrollbar	
 "hi Tooltip		
 
+" =============================================================================
+" Syntax coloring
+" =============================================================================
+
 " syntax highlighting groups
 hi Comment guifg=#585858 guibg=NONE gui=NONE
 
 hi Constant guifg=#ff4500 guibg=NONE gui=NONE
-hi String guifg=#800080 guibg=NONE gui=NONE
+hi String guifg=#ff00ff guibg=NONE gui=NONE
 "hi Character
 hi Number guifg=NONE guibg=NONE gui=NONE
 "hi Boolean
@@ -90,7 +98,7 @@ hi Statement guifg=#ff1493 guibg=NONE gui=NONE
 hi Keyword guifg=#ff1493 guibg=NONE gui=NONE
 "hi Exception
 
-hi PreProc guifg=#008080 guibg=NONE gui=NONE
+hi PreProc guifg=#00ffff guibg=NONE gui=NONE
 "Include
 "Define
 "PreCondit
