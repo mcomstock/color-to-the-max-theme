@@ -55,7 +55,8 @@ let g:colors_name="color_to_the_max"
 "hi Folded		
 "hi FoldColumn	
 "hi IncSearch	
-"hi LineNr		
+hi LineNr guifg=#585858 guibg=NONE gui=NONE
+hi CursorLineNr guifg=#585858 guibg=NONE gui=NONE
 "hi ModeMsg		
 "hi MoreMsg		
 "hi NonText		
