@@ -14,18 +14,18 @@
  ;; Font lock faces
  '(font-lock-builtin-face       ((t (:foreground "#8470ff"))))
  '(font-lock-constant-face      ((t (:foreground "#ff4500"))))
- '(font-lock-preprocessor-face  ((t (:foreground "cyan" :italic t))))
+ '(font-lock-preprocessor-face  ((t (:foreground "#00d7ff" :italic t))))
  '(font-lock-keyword-face       ((t (:foreground "#ff1493"))))
  '(font-lock-type-face          ((t (:foreground "#ff4ea3"))))
  '(font-lock-regexp-grouping-backslash ((t (:bold t :weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:bold t :weight bold))))
  '(font-lock-variable-name-face ((t (:foreground "#00afff"))))
  '(font-lock-function-name-face ((t (:foreground "#00ff7f"))))
- '(font-lock-string-face        ((t (:foreground "magenta"))))
+ '(font-lock-string-face        ((t (:foreground "#d700d7"))))
  '(font-lock-comment-face       ((t (:italic t :slant oblique :foreground "#585858"))))
  '(font-lock-comment-delimiter-face ((t (:foreground "#585858"))))
  '(font-lock-doc-face           ((t (:italic t :slant oblique :foreground "#585858"))))
- '(font-lock-warning-face ((t (:bold t :foreground "red" :weight bold))))
+ '(font-lock-warning-face ((t (:bold t :foreground "#d70000" :weight bold))))
 
  ;; auto-complete
  '(ac-completion-face ((t (:underline t :foreground "#808080" :background "#1c1c1c"))))
@@ -45,7 +45,7 @@
  ;; CPerl mode
  '(cperl-array-face ((t (:foreground "#af5fff"))))
  '(cperl-hash-face ((t (:foreground "#af87ff"))))
- '(cperl-nonoverridable-face ((t (:foreground "cyan"))))
+ '(cperl-nonoverridable-face ((t (:foreground "#00d7ff"))))
 
  '(css-selector ((t (:foreground "#ff1493"))))
  '(css-property ((t (:foreground "#00afff"))))
@@ -61,7 +61,7 @@
  '(rainbow-delimiters-depth-7-face ((t (:foreground "#af5fff"))))
  '(rainbow-delimiters-depth-8-face ((t (:foreground "#c6c6c6"))))
  '(rainbow-delimiters-depth-9-face ((t (:foreground "#ffd700"))))
- '(rainbow-delimiters-unmatched-face ((t (:foreground "white" :background "red"))))
+ '(rainbow-delimiters-unmatched-face ((t (:foreground "white" :background "#d70000"))))
 
  '(gnus-button ((t (:bold t :weight bold :background "#191932" :box (:line-width 2 :style released-button)))))
  '(gnus-cite-attribution-face ((t (:italic t))))

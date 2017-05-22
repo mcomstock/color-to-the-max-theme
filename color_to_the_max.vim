@@ -82,7 +82,7 @@ hi CursorLineNr guifg=#585858 guibg=NONE gui=NONE
 hi Comment guifg=#585858 guibg=NONE gui=NONE
 
 hi Constant guifg=#ff4500 guibg=NONE gui=NONE
-hi String guifg=#ff00ff guibg=NONE gui=NONE
+hi String guifg=#d700d7 guibg=NONE gui=NONE
 "hi Character
 hi Number guifg=NONE guibg=NONE gui=NONE
 "hi Boolean
@@ -99,7 +99,7 @@ hi Statement guifg=#ff1493 guibg=NONE gui=NONE
 hi Keyword guifg=#ff1493 guibg=NONE gui=NONE
 "hi Exception
 
-hi PreProc guifg=#00ffff guibg=NONE gui=NONE
+hi PreProc guifg=#00d7ff guibg=NONE gui=NONE
 "Include
 "Define
 "PreCondit
