@@ -28,51 +28,51 @@ let g:colors_name="color_to_the_max"
 " endif
 
 " A good way to see what your colorscheme does is to follow this procedure:
-" :w 
-" :so % 
+" :w
+" :so %
 "
-" Then to see what the current setting is use the highlight command.  
+" Then to see what the current setting is use the highlight command.
 " For example,
 " 	:hi Cursor
 " gives
-"	Cursor         xxx guifg=bg guibg=fg 
- 	
+"	Cursor         xxx guifg=bg guibg=fg
+
 " Uncomment and complete the commands you want to change from the default.
 
 " =============================================================================
 " UI Colors
 " =============================================================================
 
-"hi Cursor		
-"hi CursorIM	
-"hi Directory	
-"hi DiffAdd		
-"hi DiffChange	
-"hi DiffDelete	
-"hi DiffText	
-"hi ErrorMsg	
-"hi VertSplit	
-"hi Folded		
-"hi FoldColumn	
-"hi IncSearch	
-hi LineNr guifg=#585858 guibg=NONE gui=NONE
-hi CursorLineNr guifg=#585858 guibg=NONE gui=NONE
-"hi ModeMsg		
-"hi MoreMsg		
-"hi NonText		
-"hi Question	
-"hi Search		
-"hi SpecialKey	
-"hi StatusLine	
-"hi StatusLineNC	
-"hi Title		
-"hi Visual		
-"hi VisualNOS	
-"hi WarningMsg	
-"hi WildMenu	
-"hi Menu		
-"hi Scrollbar	
-"hi Tooltip		
+"hi Cursor
+"hi CursorIM
+"hi Directory
+"hi DiffAdd
+"hi DiffChange
+"hi DiffDelete
+"hi DiffText
+"hi ErrorMsg
+"hi VertSplit
+"hi Folded
+"hi FoldColumn
+"hi IncSearch
+hi LineNr guifg=#303030 guibg=NONE gui=NONE
+hi CursorLineNr guifg=#444444 guibg=NONE gui=NONE
+"hi ModeMsg
+"hi MoreMsg
+"hi NonText
+"hi Question
+"hi Search
+"hi SpecialKey
+"hi StatusLine
+"hi StatusLineNC
+"hi Title
+"hi Visual
+"hi VisualNOS
+"hi WarningMsg
+"hi WildMenu
+"hi Menu
+"hi Scrollbar
+"hi Tooltip
 
 " =============================================================================
 " Syntax coloring
@@ -124,3 +124,6 @@ hi Error guifg=NONE guibg=#cd0000 gui=bold
 
 hi Todo guifg=#cd0000 guibg=NONE gui=NONE
 
+hi Whitespace guifg=#303030 guibg=NONE gui=NONE
+" Highlighter for eol, extends, precedes, etc
+hi NonText guifg=#303030 guibg=NONE gui=NONE
