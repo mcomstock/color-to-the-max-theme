@@ -63,6 +63,19 @@
  '(rainbow-delimiters-depth-9-face ((t (:foreground "#ffd700"))))
  '(rainbow-delimiters-unmatched-face ((t (:foreground "white" :background "#d70000"))))
 
+ ;; whitespace
+ '(whitespace-big-indent ((t (:foreground "#303030"))))
+ '(whitespace-newline ((t (:foreground "#303030"))))
+ '(whitespace-empty ((t (:foreground "#303030"))))
+ '(whitespace-space ((t (:foreground "#303030"))))
+ '(whitespace-hspace ((t (:foreground "#303030"))))
+ '(whitespace-space-after-tab ((t (:foreground "#303030"))))
+ '(whitespace-indentation ((t (:foreground "#303030"))))
+ '(whitespace-space-before-tab ((t (:foreground "#303030"))))
+ '(whitespace-line ((t (:foreground "#303030"))))
+ '(whitespace-tab ((t (:foreground "#303030"))))
+ '(whitespace-trailing ((t (:background "red1"))))
+
 
  '(bold ((t (:bold t :weight bold))))
  '(bold-italic ((t (:bold t :italic t :slant italic :weight bold))))
