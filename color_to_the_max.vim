@@ -80,6 +80,7 @@ hi CursorLineNr guifg=#444444 guibg=NONE gui=NONE
 
 " syntax highlighting groups
 hi Comment guifg=#585858 guibg=NONE gui=NONE
+hi SpecialComment guifg=#585858 guibg=NONE gui=NONE
 
 hi Constant guifg=#ff4500 guibg=NONE gui=NONE
 hi String guifg=#d700d7 guibg=NONE gui=NONE
@@ -113,7 +114,6 @@ hi Special guifg=#ffdf00 guibg=NONE gui=NONE
 "SpecialChar
 "Tag
 "Delimiter
-"SpecialComment
 "Debug
 
 hi Underlined guifg=NONE guibg=NONE gui=underline
