@@ -23,6 +23,8 @@ hi CursorLineNr guifg=#444444 guibg=NONE gui=NONE
 " Syntax coloring
 " =============================================================================
 
+hi Normal guifg=#c0c0c0 guibg=NONE gui=NONE
+
 hi Comment guifg=#585858 guibg=NONE gui=NONE
 hi SpecialComment guifg=#585858 guibg=NONE gui=NONE
 
