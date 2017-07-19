@@ -206,6 +206,7 @@
  '(help-argument-name ((t (:italic t :slant italic))))
  '(highlight ((t (:background "gray10" :foreground "Old Lace"))))
  '(hl-line  ((t (:background "#1c1c1c"))))
+ '(linum ((t (:foreground "#444444"))))
  '(gnus-mouse-face ((t (:background "darkseagreen2" :foreground "blue"))))
  '(erc-button-mouse-face ((t (:background "darkseagreen2" :foreground "blue"))))
  '(align-highlight-change-face  ((t (:background "darkseagreen2" :foreground "blue"))))
