@@ -16,7 +16,7 @@
  '(font-lock-constant-face      ((t (:foreground "#ff4500"))))
  '(font-lock-preprocessor-face  ((t (:foreground "#00d7ff" :italic t))))
  '(font-lock-keyword-face       ((t (:foreground "#ff1493"))))
- '(font-lock-type-face          ((t (:foreground "#ff4ea3"))))
+ '(font-lock-type-face          ((t (:foreground "#ffdf00"))))
  '(font-lock-regexp-grouping-backslash ((t (:bold t :weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:bold t :weight bold))))
  '(font-lock-variable-name-face ((t (:foreground "#00afff"))))

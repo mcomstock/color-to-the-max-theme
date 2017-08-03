@@ -45,7 +45,7 @@ hi Keyword guifg=#ff1493 guibg=NONE gui=NONE
 
 hi PreProc guifg=#00d7ff guibg=NONE gui=NONE
 
-hi Type guifg=#ff4ea3 guibg=NONE gui=NONE
+hi Type guifg=#ffdf00 guibg=NONE gui=NONE
 
 hi Special guifg=#ffdf00 guibg=NONE gui=NONE
 
