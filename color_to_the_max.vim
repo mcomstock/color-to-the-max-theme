@@ -18,6 +18,7 @@ let g:colors_name="color_to_the_max"
 
 hi LineNr guifg=#303030 guibg=NONE gui=NONE
 hi CursorLineNr guifg=#444444 guibg=NONE gui=NONE
+hi CursorLine guibg=#1c1c1c
 
 hi SignColumn guibg=#121212
 
