@@ -20,6 +20,9 @@ hi LineNr guifg=#303030 guibg=NONE gui=NONE
 hi CursorLineNr guifg=#444444 guibg=NONE gui=NONE
 hi CursorLine guibg=#1c1c1c
 
+hi Search guifg=#000000 guibg=#ff1493
+hi Visual guibg=#767676
+
 hi SignColumn guibg=#121212
 
 " =============================================================================
