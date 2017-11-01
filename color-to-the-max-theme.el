@@ -10,7 +10,7 @@
 
 (custom-theme-set-faces
  'color-to-the-max
- '(default ((t (:background "black" :foreground "white"))))
+ '(default ((t (:foreground "white"))))
  ;; Font lock faces
  '(font-lock-builtin-face       ((t (:foreground "#8470ff"))))
  '(font-lock-constant-face      ((t (:foreground "#ff4500"))))
