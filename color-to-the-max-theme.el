@@ -27,6 +27,16 @@
  '(font-lock-doc-face           ((t (:italic t :slant oblique :foreground "#585858"))))
  '(font-lock-warning-face ((t (:bold t :foreground "#d70000" :weight bold))))
 
+ ;; helm
+ '(helm-selection ((t (:background "#585858"))))
+ '(helm-candidate-number ((t (:inherit 'mode-line))))
+ '(helm-candidate-number-suspended ((t (:inherit 'mode-line))))
+
+ ;; helm-swoop
+ '(helm-swoop-target-line-block-face ((t (:foreground "white" :background "#af005f"))))
+ '(helm-swoop-target-line-face ((t (:foreground "white" :background "#af005f"))))
+ '(helm-swoop-target-word-face ((t (:background "#00afff" :foreground "black"))))
+
  ;; auto-complete
  '(ac-completion-face ((t (:underline t :foreground "#808080" :background "#1c1c1c"))))
  '(ac-candidate-face ((t (:foreground "white" :background "#444444"))))
