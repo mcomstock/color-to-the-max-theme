@@ -249,7 +249,9 @@
  '(info-xref ((t (:bold t :foreground "cyan" :weight bold))))
  '(isearch ((t (:background "#ff1493" :foreground "black"))))
  '(isearch-fail ((t (:background "#d70000"))))
+ ;; emacs 26 seems to have changed the name of this face
  '(isearch-lazy-highlight-face ((t (:background "#00afff" :foreground "black"))))
+ '(lazy-highlight ((t (:background "#00afff" :foreground "black"))))
  '(italic ((t (:italic t))))
 
  '(js2-function-param ((t (:italic t :inherit font-lock-variable-name-face))))
