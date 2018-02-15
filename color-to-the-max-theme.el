@@ -356,7 +356,7 @@
  '(vm-summary-highlight-face  ((t (:bold t :weight bold))))
  '(vm-xface ((t (:background "white" :foreground "black"))))
 
- '(which-func ((t (:foreground "Blue1"))))
+ '(which-func ((t (:foreground "#00ff7f"))))
  '(widget ((t (:height 1.2 :background "Gray80" :foreground "black"))))
  '(widget-button ((t (:bold t :weight bold :box (:line-width 2 :style released-button)))))
  '(widget-button-face ((t (:bold t :weight bold :box (:line-width 2 :style released-button)))))
