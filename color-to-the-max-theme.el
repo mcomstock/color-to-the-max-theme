@@ -252,6 +252,7 @@
  ;; emacs 26 seems to have changed the name of this face
  '(isearch-lazy-highlight-face ((t (:background "#00afff" :foreground "black"))))
  '(lazy-highlight ((t (:background "#00afff" :foreground "black"))))
+ '(evil-search-highlight-persist-highlight-face ((t (:background "#00afff" :foreground "black"))))
  '(italic ((t (:italic t))))
 
  '(js2-function-param ((t (:italic t :inherit font-lock-variable-name-face))))
