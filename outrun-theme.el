@@ -72,9 +72,17 @@
 ;; #F6F5DF
 ;; #F49932
 
+;; #F334B7
+;; #022AC2
+;; #13BD06
+;; #C0B401
+;; #0D5ABF
+;; #A627A5
+
 ;; pink
 ;; #F2517A
 ;; #F33B9F
+;; #F334B7
 ;; #F445C6
 ;; #A70C71
 ;; #DA5FC2
@@ -84,6 +92,7 @@
 ;; #F22894
 ;; #F327B7
 ;; #F109F4
+;; #C0B401
 
 ;; red
 ;; #F20541
@@ -104,6 +113,7 @@
 ;; #58A466
 ;; #A9D7A5
 ;; #3FDABA
+;; #13BD06
 
 ;; blue
 ;; #0C4E8E
@@ -112,6 +122,8 @@
 ;; #06DCF8
 ;; #70F0D9
 ;; #79F1DD
+;; #022AC2
+;; #0D5ABF
 
 ;; purple
 ;; #470D57
@@ -125,6 +137,7 @@
 ;; #B656F0
 ;; #8D42F5
 ;; #D86AF1
+;; #A627A5
 
 ;; pale
 ;; #F6F5DF
@@ -137,13 +150,14 @@
       (pink-2 "#F2517A")
       (purple-1 "#D86AF1")
       (purple-2 "#F445C6")
-      (purple-3 "#470D57")
+      (purple-3 "#A627A5")
       (blue-1 "#05DAF4")
-      (blue-2 "#0C4E8E")
+      (blue-2 "#0D5ABF")
       (yellow-1 "#F5A207")
       (yellow-2 "#D8C243")
       (green-1 "#58A466")
       (green-2 "#3FDABA")
+      (green-3 "#13BD06")
       (red-1 "#BE0225")
       (gray-1 "#585858")
       (gray-2 "#1C1C1C")
@@ -152,7 +166,7 @@
 
   (custom-theme-set-faces
    'outrun
-   `(default ((t (:foreground ,orange-2))))
+   `(default ((t (:foreground ,purple-2))))
 
    `(hl-line  ((t (:background ,gray-2))))
    `(linum ((t (:foreground ,blue-2 :background ,gray-2 :inherit 'default))))
@@ -162,11 +176,12 @@
    `(show-paren-match ((t (:background ,blue-2))))
    `(show-paren-mismatch ((t (:background ,red-1 :foreground ,pale))))
    `(region ((t (:background ,gray-3))))
+   `(minibuffer-prompt ((t (:foreground ,blue-1))))
 
    `(font-lock-builtin-face       ((t (:foreground ,pink-1))))
    `(font-lock-constant-face      ((t (:foreground ,green-2))))
-   `(font-lock-preprocessor-face  ((t (:foreground ,purple-2))))
-   `(font-lock-keyword-face       ((t (:foreground ,purple-1))))
+   `(font-lock-preprocessor-face  ((t (:foreground ,orange-1))))
+   `(font-lock-keyword-face       ((t (:foreground ,orange-2))))
    `(font-lock-type-face          ((t (:foreground ,yellow-1))))
    `(font-lock-regexp-grouping-backslash ((t (:bold t :weight bold))))
    `(font-lock-regexp-grouping-construct ((t (:bold t :weight bold))))
@@ -185,21 +200,23 @@
    `(lazy-highlight ((t (:background ,pink-2 :foreground "black"))))
    `(evil-search-highlight-persist-highlight-face ((t (:background ,pink-2 :foreground "black"))))
 
-   `(company-tooltip ((t (:foreground ,orange-2 :background ,gray-1))))
+   `(company-tooltip ((t (:foreground ,purple-2 :background ,gray-2))))
    `(company-scrollbar-bg ((t (:background ,purple-3))))
-   `(company-scrollbar-fg ((t (:background ,purple-1))))
-   `(company-tooltip-selection ((t (:foreground "white" :background ,pink-2))))
-   `(company-tooltip-common ((t (:foreground "#1c1c1c"))))
-   `(company-preview ((t (:foreground ,gray-1 :background "#1c1c1c"))))
-   `(company-preview-common ((t (:foreground ,gray-1 :background "#1c1c1c" :underline t))))
+   `(company-scrollbar-fg ((t (:background ,blue-1))))
+   `(company-tooltip-selection ((t (:background ,blue-2))))
+   `(company-tooltip-common ((t (:foreground ,pink-1))))
+   `(company-tooltip-annotation ((t (:foreground ,green-2))))
 
    `(helm-selection ((t (:background ,gray-1))))
    `(helm-candidate-number ((t (:inherit 'mode-line))))
    `(helm-candidate-number-suspended ((t (:inherit 'mode-line))))
    `(helm-match ((t (:foreground ,pink-1))))
+   `(helm-source-header ((t (:foreground "black" :background ,blue-1))))
+
+   `(helm-ff-directory ((t (:foreground ,purple-2))))
 
    `(helm-swoop-target-line-block-face ((t (:background ,gray-1))))
-   `(helm-swoop-target-line-face ((t (:background ,gray-1 :foreground ,pale))))
+   `(helm-swoop-target-line-face ((t (:background ,gray-1))))
    `(helm-swoop-target-word-face ((t (:background ,pink-1 :foreground "black"))))
 
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,pink-1))))
@@ -226,9 +243,17 @@
    `(whitespace-tab ((t (:foreground ,purple-3))))
    `(whitespace-trailing ((t (:background ,red-1))))
 
-   `(mode-line ((t (:background ,gray-2 :foreground ,purple-1))))
-   `(mode-line-buffer-id ((t (:foreground ,pink-1))))
+   `(mode-line ((t (:background ,purple-2 :foreground "black"))))
+   `(mode-line-buffer-id ((t (:foreground "black"))))
    `(mode-line-inactive ((t (:background ,gray-2 :foreground ,gray-1))))
+
+   `(powerline-active1 ((t (:background ,pink-1 :foreground "black"))))
+   `(powerline-active2 ((t (:background ,orange-2 :foreground "black"))))
+
+   `(spaceline-evil-normal ((t (:background ,purple-1 :foreground "black"))))
+   `(spaceline-evil-insert ((t (:background ,blue-1 :foreground "black"))))
+   `(spaceline-evil-visual ((t (:background ,pink-1 :foreground "black"))))
+   `(spaceline-evil-emacs ((t (:background ,pink-2 :foreground "black"))))
    ))
 
 (provide-theme 'outrun)
