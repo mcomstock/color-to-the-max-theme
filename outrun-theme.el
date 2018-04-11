@@ -245,6 +245,7 @@
 
    `(mode-line ((t (:background ,purple-2 :foreground "black"))))
    `(mode-line-buffer-id ((t (:foreground "black"))))
+   `(mode-line-buffer-id-inactive ((t (:foreground ,gray-1))))
    `(mode-line-inactive ((t (:background ,gray-2 :foreground ,gray-1))))
 
    `(powerline-active1 ((t (:background ,pink-1 :foreground "black"))))
