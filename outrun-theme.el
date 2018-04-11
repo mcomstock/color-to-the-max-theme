@@ -250,6 +250,8 @@
    `(powerline-active1 ((t (:background ,pink-1 :foreground "black"))))
    `(powerline-active2 ((t (:background ,orange-2 :foreground "black"))))
 
+   `(anzu-mode-line ((t :foreground "black")))
+
    `(spaceline-evil-normal ((t (:background ,purple-1 :foreground "black"))))
    `(spaceline-evil-insert ((t (:background ,blue-1 :foreground "black"))))
    `(spaceline-evil-visual ((t (:background ,pink-1 :foreground "black"))))
