@@ -257,6 +257,8 @@
    `(spaceline-evil-insert ((t (:background ,blue-1 :foreground "black"))))
    `(spaceline-evil-visual ((t (:background ,pink-1 :foreground "black"))))
    `(spaceline-evil-emacs ((t (:background ,pink-2 :foreground "black"))))
+
+   `(mmm-default-submode-face ((t ())))
    ))
 
 (provide-theme 'outrun)
