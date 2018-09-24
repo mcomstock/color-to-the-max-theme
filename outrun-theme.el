@@ -4,144 +4,6 @@
 ;;; Some stuff.
 
 ;;; Code:
-
-;; colors
-;; #F2517A
-;; #F22F8A
-;; #470D57
-;; #1C073F
-;; #3FDABA
-
-;; #F20541
-;; #A70C71
-;; #D8C243
-;; #D7AB4F
-
-;; #BE0225
-;; #0E515A
-;; #205938
-;; #58A466
-;; #A9D7A5
-
-;; #730268
-;; #7D038F
-;; #210F28
-;; #070573
-;; #0C4E8E
-
-;; #F109F4
-;; #711BA7
-;; #000427
-;; #011C58
-;; #32E9EC
-;; #B717EC
-;; #561C8B
-
-;; #8E3065
-;; #DA5FC2
-;; #05DAF4
-;; #025358
-;; #F5A207
-
-;; #F30388
-;; #76023F
-;; #F103A1
-;; #06DCF8
-
-;; #F33B9F
-;; #D86AF1
-;; #B656F0
-;; #8D42F5
-;; #79F1DD
-
-;; #F445C6
-;; #3D175A
-;; #70F0D9
-;; #257228
-;; #F49932
-;;
-;; #F22894
-;; #F327B7
-;; #F6F5DF
-;; #F49932
-;; #F2502A
-;;
-;; #F445C6
-;; #3D175A
-;; #70F0D9
-;; #F6F5DF
-;; #F49932
-
-;; #F334B7
-;; #022AC2
-;; #13BD06
-;; #C0B401
-;; #0D5ABF
-;; #A627A5
-
-;; pink
-;; #F2517A
-;; #F33B9F
-;; #F334B7
-;; #F445C6
-;; #A70C71
-;; #DA5FC2
-;; #F103A1
-;; #F22F8A
-;; #F30388
-;; #F22894
-;; #F327B7
-;; #F109F4
-;; #C0B401
-
-;; red
-;; #F20541
-;; #BE0225
-
-;; orange/yellow
-;; #D8C243
-;; #D7AB4F
-;; #F49932
-;; #F5A207
-;; #F2502A
-
-;; green
-;; #0E515A
-;; #205938
-;; #025358
-;; #257228
-;; #58A466
-;; #A9D7A5
-;; #3FDABA
-;; #13BD06
-
-;; blue
-;; #0C4E8E
-;; #32E9EC
-;; #05DAF4
-;; #06DCF8
-;; #70F0D9
-;; #79F1DD
-;; #022AC2
-;; #0D5ABF
-
-;; purple
-;; #470D57
-;; #730268
-;; #3D175A
-;; #7D038F
-;; #76023F
-;; #561C8B
-;; #711BA7
-;; #B717EC
-;; #B656F0
-;; #8D42F5
-;; #D86AF1
-;; #A627A5
-
-;; pale
-;; #F6F5DF
-
 (deftheme outrun)
 
 (let ((orange-1 "#F2502A")
@@ -243,20 +105,11 @@
    `(whitespace-tab ((t (:foreground ,purple-3))))
    `(whitespace-trailing ((t (:background ,red-1))))
 
-   `(mode-line ((t (:background ,purple-2 :foreground "black"))))
-   `(mode-line-buffer-id ((t (:foreground "black"))))
-   `(mode-line-buffer-id-inactive ((t (:foreground ,gray-1))))
+   `(mode-line ((t (:background ,gray-2 :foreground ,purple-2))))
+   `(mode-line-buffer-id ((t (:foreground ,blue-1))))
    `(mode-line-inactive ((t (:background ,gray-2 :foreground ,gray-1))))
 
-   `(powerline-active1 ((t (:background ,pink-1 :foreground "black"))))
-   `(powerline-active2 ((t (:background ,orange-2 :foreground "black"))))
-
-   `(anzu-mode-line ((t :foreground "black")))
-
-   `(spaceline-evil-normal ((t (:background ,purple-1 :foreground "black"))))
-   `(spaceline-evil-insert ((t (:background ,blue-1 :foreground "black"))))
-   `(spaceline-evil-visual ((t (:background ,pink-1 :foreground "black"))))
-   `(spaceline-evil-emacs ((t (:background ,pink-2 :foreground "black"))))
+   `(anzu-mode-line ((t (:foreground ,purple-2))))
 
    `(mmm-default-submode-face ((t ())))
    ))
