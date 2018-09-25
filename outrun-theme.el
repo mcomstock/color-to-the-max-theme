@@ -31,8 +31,8 @@
    `(default ((t (:foreground ,purple-2))))
 
    `(hl-line  ((t (:background ,gray-2))))
-   `(linum ((t (:foreground ,blue-2 :background ,gray-2 :inherit 'default))))
-   `(linum-relative-current-face ((t (:foreground ,purple-3 :background ,gray-2 :inherit 'default))))
+   `(line-number ((t (:foreground ,blue-2 :background ,gray-2 :inherit 'default))))
+   `(line-number-current-line ((t (:foreground ,purple-3 :background ,gray-2 :inherit 'default))))
    `(trailing-whitespace ((t (:background ,red-1))))
    `(vertical-border ((t (:background ,gray-2 :foreground ,purple-3))))
    `(show-paren-match ((t (:background ,blue-2))))
