@@ -1,7 +1,7 @@
 ;;; vice-theme.el --- A dark, high contrast theme by Max Comstock
 
 ;;; Commentary:
-;;; Some stuff.
+;;; This is useful: https://www.gnu.org/software/emacs/manual/html_node/elisp/Defining-Faces.html.
 
 ;;; Code:
 (deftheme vice)
@@ -12,8 +12,10 @@
       (purple "#908ec0")
       (dark-purple "#af4dc0")
       (blue "#068bbf")
+      (bg-blue "#0a4766")
       (cyan "#02abc0")
       (green "#73c07a")
+      (bg-green "#3d663d")
       (yellow "#bfa900")
       (red "#bf176d")
       (medium-gray "#585858")
@@ -21,7 +23,8 @@
 
   (custom-theme-set-faces
    'vice
-   `(default ((t (:foreground ,pink))))
+   `(default ((default (:foreground ,pink))
+              (((type graphic)) :background "black")))
 
    `(hl-line  ((t (:background ,dark-gray))))
    `(line-number ((t (:foreground ,blue :background ,dark-gray :inherit 'default))))
@@ -30,7 +33,8 @@
    `(vertical-border ((t (:background ,dark-gray :foreground ,purple))))
    `(show-paren-match ((t (:background ,blue))))
    `(show-paren-mismatch ((t (:background ,red :foreground ,dark-gray))))
-   `(region ((t (:inverse-video t))))
+   `(region ((t (:background ,bg-blue))))
+   `(highlight ((t (:background ,bg-green))))
    `(minibuffer-prompt ((t (:foreground ,blue))))
 
    `(font-lock-builtin-face       ((t (:foreground ,dark-purple))))
@@ -70,8 +74,8 @@
    `(rainbow-delimiters-depth-6-face ((t (:foreground ,orange))))
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,dark-purple))))
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,bright-pink))))
-   `(rainbow-delimiters-unmatched-face ((t (:foreground ,dark-gray :background ,red))))
-   `(rainbow-delimiters-mismatched-face ((t (:foreground ,dark-gray :background ,yellow))))
+   `(rainbow-delimiters-unmatched-face ((t (:foreground ,yellow :background ,red))))
+   `(rainbow-delimiters-mismatched-face ((t (:foreground ,red :background ,yellow))))
 
    `(whitespace-big-indent ((t (:foreground ,purple))))
    `(whitespace-newline ((t (:foreground ,purple))))
@@ -95,8 +99,7 @@
 
    `(error ((t (:foreground ,red :underline t))))
    `(warning ((t (:foreground ,yellow :underline t))))
-   `(success ((t (:foreground ,green :underline t))))
-   ))
+   `(success ((t (:foreground ,green :underline t))))))
 
 (provide-theme 'vice)
 
